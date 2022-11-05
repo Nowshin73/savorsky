@@ -1,0 +1,126 @@
+body{
+    margin: 0 0 0 0;
+}
+.header{
+    display: grid;
+}
+.header-main{
+    display:grid;
+    z-index: 1;
+    color: white;
+    padding: 1rem 2rem;
+}
+.header-main:hover{
+    color: black;
+    background: #f0eee4;
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.topnav a{
+    text-decoration: none;
+}
+
+.topnav-left{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.topnav-right{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.navbar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandname{
+     font-size: 15rem;
+    font-weight: 400;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+   
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    cursor: pointer;
+}
+.nav-links li:hover{
+    text-decoration: underline;
+
+}
+.extra-header{
+    display: flex;
+ 
+}
+.header-video{
+    width: 1600px;
+}
+.h-vdo{
+z-index: -1;
+ width:100%;
+ margin-top: -26rem;
+}
+.extra-header{
+    position: relative;
+    top: -28rem;
+}
+.extra-header-container{
+    display: grid;
+    margin-left: 8rem;
+    padding: 1rem 2rem;
+    justify-content: baseline;
+    gap: 0.5rem;
+   
+}
+.extra-header-container span:nth-child(1){
+    font-size: 4rem;
+    font-weight: 400;
+}
+.extra-header-container span:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 400;
+    word-spacing: 2pt;
+}
+.extra-header-container button:nth-child(3){
+    font-size: 15px;
+    border: 1px solid black;
+    font-weight: 400;
+    padding: 10px 20px;
+    width: max-content;
+    color: white;
+    background: rgba(0, 0, 0, 0.81); 
+}
+.extra-header-container button:nth-child(3):hover{
+     background-color: transparent;
+     border: 1px solid black;
+     color: #000;
+}
+.content1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.c1-container{
+    max-width: 500px;
+}
+.c1-wrapper{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
