@@ -1,8 +1,12 @@
 body{
     margin: 0 0 0 0;
+    background:  #f0eee4;
+    font-family: 'ITCNovareseMed';
 }
 .header{
     display: grid;
+   background: #f0eee4;
+   height: 900px;
 }
 .header-main{
     display:grid;
@@ -74,11 +78,12 @@ body{
 .h-vdo{
 z-index: -1;
  width:100%;
+ height: max-content;
  margin-top: -26rem;
 }
 .extra-header{
     position: relative;
-    top: -28rem;
+    top: -24rem;
 }
 .extra-header-container{
     display: grid;
@@ -114,13 +119,248 @@ z-index: -1;
 .content1{
 display: flex;
 justify-content: center;
-align-items: center;
+background: #f0eee4;
 }
 .c1-container{
-    max-width: 500px;
+    display: grid;
+    justify-items: center;
+   width: 1024px;
+ margin-bottom: 8rem;
+   gap: 2rem;
 }
-.c1-wrapper{
+.c1-container span:nth-child(1){
+    font-size: 3rem;
+    font-weight: 400;
+}
+.c1-container span:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+.content2{
+display: grid;
+justify-content: baseline;
+z-index: -1;
+gap: 2rem;
+
+}
+.c2-left{
+    margin: 0;
+    overflow: hidden;
+}
+.c2-left img{
+    width: 100%;
+    height: 100%;
+}
+.c2-right{
+    position: relative;
+    top: -28rem;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: right;
+}
+.c2-r-wrapper{
+background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+.c2-right span:nth-child(1){
+    font-size: 4rem;
+    font-weight: 400;
+}
+.c2-right span:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 400;
+   margin-bottom: 2rem;
+}
+.exh-btn{
+    font-size: 15px;
+    border: 1px solid black;
+    font-weight: 400;
+    padding: 10px 20px;
+    width: max-content;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: rgba(0, 0, 0, 0.81); 
+}
+.exh-btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: #000;
+}
+.content3{
+    display: grid;
+    justify-items: center;
+    gap: 5rem;
+    height: 800px;
+    margin-bottom: 8rem;
+}
+.c3-header{
+font-size: 3rem;
+font-weight: 400;
+}
+.c3-container{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+   
+}
+.c3-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap:2rem;
+    width: 447px;
+    height: 596px;
+}
+.c3-wrapper img{
+    width: 100%;
+}
+.c3-wrapper span:nth-child(2){
+    font-size: 3rem;
+    font-weight: 400;
+}
+.c3-wrapper span:nth-child(3){
+    font-size: 1.2rem;
+    font-weight: 400;
+   margin-bottom: 2rem;
+}
+.exh-btn1{
+    font-size: 15px;
+    border: 1px solid black;
+    font-weight: 400;
+    padding: 10px 20px;
+    width: max-content;
+    min-width: 250px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: #000;
+}
+.exh-btn1:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.81); 
+
+}
+.content4{
+   position: relative;
+   top: 30rem;
+    display: grid;
+    margin-left: 5rem;
+    justify-items: baseline;
+    gap: 5rem;
+    overflow: hidden;
+    justify-content: space-between;
+    height: 1000px;
+    margin-bottom: 30rem;
+}
+.c4-header{
+    display: grid;
+    justify-items:left ;
+    
+}
+.arrow{
+    display: flex;
+    font-size: 3rem; 
+    gap: 1rem;
+}
+.active{
+    display: flex;
+    flex-direction: column;
+}
+  
+.c4-header span{
+font-size: 3rem;
+font-weight: 400;
+}
+.c4-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+    height: 1000px;
+}
+.c4-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap:1rem;
+}
+.c4-img {display: none}
+
+.c4-img img{
+    max-width: 1345px;
+    vertical-align: middle;
+}
+.c4-wrapper span:nth-child(2){
+    font-size: 2rem;
+    font-weight: 600;
+}
+.c4-wrapper span:nth-child(3){
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 500px;
+   margin-bottom: 2rem;
+}
+.subscribe input{
+width:400px;
+height: 50px;
+padding: 0rem 1rem;
+border: 1px solid gray;
+}
+.subscribe button{
+width:100px;
+height: 50px;
+border-style: none;
+background: #000;
+color: white;
+border: 1px solid black;
+}
+.subscribe button:active{
+width:100px;
+height: 50px;
+border-style: none;
+background:white;
+color: black;
+border: 1px solid black;
+}
+.footer{
     display: grid;
     justify-content: center;
-    align-items: center;
+    background: white;
+}
+.footer-container{
+    margin-top: 3rem;
+    display: flex; 
+    gap: 15rem;
+}
+.f-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 500;
+}
+.f-wrapper a{
+    color: gray;
+    font-size: 16px;
+}
+.footer-bottom{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 20rem;
+    color: gray;
+   background: white;
+}
+hr{
+    background: white;
+}
+.f-left{
+    width: 400px;
+}
+.f-right{
+display: flex;
+gap: 3rem;
 }
