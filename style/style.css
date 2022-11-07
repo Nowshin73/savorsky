@@ -76,6 +76,7 @@ body{
     width: 1600px;
 }
 .h-vdo{
+    overflow: hidden;
 z-index: -1;
  width:100%;
  height: max-content;
